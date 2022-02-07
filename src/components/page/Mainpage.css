@@ -1,0 +1,63 @@
+iframe {
+	margin-left: -3%;
+	margin-top: -7.5%;
+}
+.icon {
+	padding-left: 35%;
+	padding-right: 35%;
+}
+
+.row-bottom {
+	background: none;
+	text-align: center;
+	margin-top: -1%;
+}
+.col-icon {
+	width: 35px;
+	height: 35px;
+}
+
+.col-bottom {
+	text-align: center;
+	color: #fff;
+}
+
+.typed {
+	text-align: center;
+}
+h2 {
+	padding-top: 1%;
+}
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #49ae5f;
+}
+
+@media screen and (max-width: 768px) {
+	.row-bottom {
+		background: none;
+		text-align: center;
+		margin-top: 2%;
+	}
+	div {
+		background-position: center;
+	}
+	iframe {
+		margin-left: -9%;
+		margin-top: -12%;
+	}
+	.icon {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+	.col-icon {
+		width: 30px;
+		height: 30px;
+	}
+	h2 {
+		padding-top: 2%;
+	}
+}
