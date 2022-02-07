@@ -91,7 +91,7 @@ const Mainpage = () => {
 										</a>
 									</Col>
 								</Row>
-								<h2>MUHAMAD RAVI WICAKSONO GANTENG</h2>
+								<h2>MUHAMAD RAVI WICAKSONO</h2>
 								<p className="typed">
 									I'm a&nbsp;
 									<Typed
