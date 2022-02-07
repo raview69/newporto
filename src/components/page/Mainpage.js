@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 import background from "../image/tunnel.gif";
 import Navbar from "../navbar/Navbar";
 import Typed from "react-typed";
-import Button from "react-bootstrap/Button";
+
 import {
 	FaInstagram,
 	FaTwitter,
@@ -42,19 +42,6 @@ function useWindowDimensions() {
 
 	return windowDimensions;
 }
-
-const link = {
-	link1:
-		"https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg",
-	link2:
-		"https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg",
-	link3:
-		"https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg",
-	link4:
-		"https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg",
-	link5:
-		"https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg",
-};
 
 const Mainpage = () => {
 	const { height, width } = useWindowDimensions();
