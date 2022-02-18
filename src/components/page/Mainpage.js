@@ -6,8 +6,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useState, useEffect } from "react";
-import background from "../image/tunnel.gif";
 import Navbar from "../navbar/Navbar";
+import background from "../image/tunnellottie.json";
 import Typed from "react-typed";
 
 import {
@@ -17,6 +17,7 @@ import {
 	FaLinkedin,
 	FaFacebook,
 } from "react-icons/fa";
+import Lottie from "react-lottie";
 
 function getWindowDimensions() {
 	const { innerWidth: width, innerHeight: height } = window;
@@ -45,17 +46,35 @@ function useWindowDimensions() {
 
 const Mainpage = () => {
 	const { height, width } = useWindowDimensions();
+	const defaultOptions = {
+		loop: true,
+		autoplay: true,
+		animationData: background,
+		rendererSettings: {
+			preserveAspectRatio: "xMidYMid slice",
+		},
+	};
 
 	return (
 		<div
 			style={{
-				backgroundImage: `url(${background})`,
 				width: width,
 				height: height,
 				backgroundSize: "cover",
 				overflow: "hidden",
 			}}
 		>
+			<Lottie
+				options={defaultOptions}
+				style={{
+					width: width,
+					height: height,
+					backgroundSize: "cover",
+					overflow: "hidden",
+					position: "absolute",
+					zIndex: "-1",
+				}}
+			/>
 			<Container className="container">
 				<Row>
 					<Col>
