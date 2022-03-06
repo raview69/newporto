@@ -1,7 +1,7 @@
 iframe {
 	margin-top: -10%;
 	padding-right: 8%;
-	padding-top: 2%;
+	padding-top: 3%;
 }
 
 .row-icon {
@@ -22,7 +22,6 @@ iframe {
 	background: none;
 	text-align: center;
 	margin-top: 3%;
-	border: 1px solid #fff;
 }
 .col-icon {
 	width: 35px;
