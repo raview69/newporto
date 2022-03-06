@@ -21,6 +21,7 @@ iframe {
 .row-bottom {
 	background: none;
 	text-align: center;
+	padding-top: 2%;
 }
 .col-icon {
 	width: 35px;
