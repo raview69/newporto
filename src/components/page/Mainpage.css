@@ -1,15 +1,17 @@
 iframe {
-	border: 1px solid white;
+	margin-top: -10%;
 }
 .icon {
 	padding-left: 35%;
 	padding-right: 35%;
+	position: absolute;
+	border: 1px solid #fff;
 }
 
 .row-bottom {
 	background: none;
 	text-align: center;
-	margin-top: -1%;
+	margin-top: 2%;
 }
 .col-icon {
 	width: 35px;
