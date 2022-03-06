@@ -21,12 +21,12 @@ iframe {
 .row-bottom {
 	background: none;
 	text-align: center;
-	padding-top: 2%;
+	margin-top: 3%;
+	border: 1px solid #fff;
 }
 .col-icon {
 	width: 35px;
 	height: 35px;
-
 	align-items: center;
 }
 
@@ -38,9 +38,7 @@ iframe {
 .typed {
 	text-align: center;
 }
-h2 {
-	padding-top: 3%;
-}
+
 a {
 	color: #fff;
 }
