@@ -1,20 +1,31 @@
 iframe {
 	margin-top: -10%;
+	padding-right: 8%;
+	padding-top: 2%;
 }
-.icon {
-	padding-left: 35%;
-	padding-right: 35%;
+
+.row-icon {
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 35%;
+	right: 35%;
+}
+
+.navbar {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .row-bottom {
 	background: none;
 	text-align: center;
-	margin-top: 2%;
 }
 .col-icon {
 	width: 35px;
 	height: 35px;
+
+	align-items: center;
 }
 
 .col-bottom {
@@ -26,7 +37,7 @@ iframe {
 	text-align: center;
 }
 h2 {
-	padding-top: 1%;
+	padding-top: 3%;
 }
 a {
 	color: #fff;
@@ -40,24 +51,30 @@ a:hover {
 	.row-bottom {
 		background: none;
 		text-align: center;
-		margin-top: 2%;
+	}
+	.row-icon {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 10%;
+		right: 10%;
 	}
 	div {
 		background-position: center;
 	}
 	iframe {
-		margin-left: -9%;
-		margin-top: -12%;
-	}
-	.icon {
-		padding-left: 15%;
-		padding-right: 15%;
+		margin-left: -6%;
+		margin-top: -20%;
 	}
 	.col-icon {
 		width: 30px;
 		height: 30px;
 	}
 	h2 {
-		padding-top: 2%;
+		padding-top: 8%;
+	}
+	.navbar {
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
