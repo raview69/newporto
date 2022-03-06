@@ -78,38 +78,38 @@ const Mainpage = () => {
 			<Row className="navbar">
 				<Navbar />
 			</Row>
+			<Row className="row-icon">
+				<Col>
+					<a href="https://www.instagram.com/ravi.wicaksono/">
+						<FaInstagram className="col-icon" />
+					</a>
+				</Col>
+				<Col>
+					<a href="https://twitter.com/RaviWicaksono2">
+						<FaTwitter className="col-icon" />
+					</a>
+				</Col>
+				<Col>
+					<a href="https://github.com/raview69">
+						<FaGithub className="col-icon" />
+					</a>
+				</Col>
+				<Col>
+					<a href="https://www.linkedin.com/in/muhamad-ravi-wicaksono-780637190/">
+						<FaLinkedin className="col-icon" />
+					</a>
+				</Col>
+				<Col>
+					<a href="#">
+						<FaFacebook className="col-icon" />
+					</a>
+				</Col>
+			</Row>
 			<Container className="container">
 				<Row>
 					<Col>
 						<Row className="row-bottom">
 							<Col className="col-bottom">
-								<Row className="row-icon">
-									<Col>
-										<a href="https://www.instagram.com/ravi.wicaksono/">
-											<FaInstagram className="col-icon" />
-										</a>
-									</Col>
-									<Col>
-										<a href="https://twitter.com/RaviWicaksono2">
-											<FaTwitter className="col-icon" />
-										</a>
-									</Col>
-									<Col>
-										<a href="https://github.com/raview69">
-											<FaGithub className="col-icon" />
-										</a>
-									</Col>
-									<Col>
-										<a href="https://www.linkedin.com/in/muhamad-ravi-wicaksono-780637190/">
-											<FaLinkedin className="col-icon" />
-										</a>
-									</Col>
-									<Col>
-										<a href="#">
-											<FaFacebook className="col-icon" />
-										</a>
-									</Col>
-								</Row>
 								<h2>MUHAMAD RAVI WICAKSONO</h2>
 								<p className="typed">
 									I'm a&nbsp;
