@@ -73,7 +73,7 @@ a:hover {
 		padding-top: 8%;
 	}
 	.navbar {
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: -10px;
+		margin-right: -10px;
 	}
 }
