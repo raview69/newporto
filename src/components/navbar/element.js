@@ -58,6 +58,7 @@ export const NavLinkLogo = styled(Link)`
 	@media screen and (max-width: 768px) {
 		.mobile {
 			display: block;
+			width: 80%;
 		}
 		.desktop {
 			display: none;
