@@ -11,10 +11,11 @@ import {
 import Image from "../image/logo3.svg";
 import Image2 from "../image/logonofont.svg";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import "./Navbar.css";
+import file from "../image/Muhamad Ravi Wicaksono_CV.pdf";
 
 function Navbar() {
 	const [show, setShow] = useState(false);
-
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
 
@@ -38,26 +39,47 @@ function Navbar() {
 					/>
 				</NavLinkLogo>
 				<Bars onClick={handleShow} />
-				<Offcanvas show={show} onHide={handleClose}>
+				<Offcanvas show={show} onHide={handleClose} className="main-offcanvas">
 					<Offcanvas.Header closeButton>
-						<Offcanvas.Title>Comingsoon..</Offcanvas.Title>
+						<Offcanvas.Title></Offcanvas.Title>
 					</Offcanvas.Header>
 					<Offcanvas.Body>
-						Some text as placeholder. In real life you can have the elements you
-						have chosen. Like, text, images, lists, etc.
+						<div className="mobile-offcanvas">
+							<NavLink
+								to="/contact"
+								className="nav-offcanvas"
+								onClick={handleClose}
+								activeStyle
+							>
+								Blog
+							</NavLink>
+							<NavLink
+								to="/works"
+								className="nav-offcanvas"
+								onClick={handleClose}
+								activeStyle
+							>
+								Works
+							</NavLink>
+							<NavLink to={file} target="_blank" download>
+								<p>Download CV</p>
+							</NavLink>
+						</div>
 					</Offcanvas.Body>
 				</Offcanvas>
 				<NavMenu>
-					<NavLink to="/genre" activeStyle>
-						About me
+					<NavLink to="/contac" activeStyle>
+						Blog
 					</NavLink>
-					<NavLink to="/genre" activeStyle>
+					<NavLink to="/works" activeStyle>
 						Works
 					</NavLink>
 					{/* Second Nav */}
 					{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 					<NavBtn>
-						<NavBtnLink to="/signin">Contact me</NavBtnLink>
+						<NavBtnLink to={file} target="_blank" download>
+							Download CV
+						</NavBtnLink>
 					</NavBtn>
 				</NavMenu>
 			</Nav>
