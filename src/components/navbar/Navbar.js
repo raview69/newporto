@@ -61,7 +61,12 @@ function Navbar() {
 							>
 								Works
 							</NavLink>
-							<NavLink to={file} target="_blank" download>
+							<NavLink
+								to={file}
+								target="_blank"
+								className="nav-offcanvas-btn"
+								download
+							>
 								<p>Download CV</p>
 							</NavLink>
 						</div>
