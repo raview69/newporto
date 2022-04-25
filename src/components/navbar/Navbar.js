@@ -12,7 +12,7 @@ import Image from "../image/logo3.svg";
 import Image2 from "../image/logonofont.svg";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Navbar.css";
-import file from "../image/Muhamad Ravi Wicaksono_CV.pdf";
+import file from "../image/CV_Muhamad Ravi Wicaksono.pdf";
 
 function Navbar() {
 	const [show, setShow] = useState(false);
